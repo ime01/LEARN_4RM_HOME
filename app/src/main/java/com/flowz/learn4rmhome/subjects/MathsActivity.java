@@ -9,8 +9,10 @@ import android.content.Context;
 import android.os.Bundle;
 
 import com.flowz.learn4rmhome.R;
+import com.flowz.learn4rmhome.adapter.MathsVideoAdapter;
 import com.flowz.learn4rmhome.adapter.VideoAdapter;
 import com.flowz.learn4rmhome.model.video;
+import com.flowz.learn4rmhome.youtubeSetUp.YoutubeActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +23,7 @@ public class MathsActivity extends AppCompatActivity {
 
     List<video> listOfVideos;
     RecyclerView myrecyclerView;
-    VideoAdapter myadapter;
+    MathsVideoAdapter myadapter;
     Context context;
 
     @Override
@@ -29,17 +31,16 @@ public class MathsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maths);
 
-
         myrecyclerView = findViewById(R.id.maths_recycler);
-
 
         LinearLayoutManager manager = new LinearLayoutManager(context);
         myrecyclerView.setLayoutManager(manager);
 
-
-
         initializeVideos();
         initializeAdapter();
+
+//        YoutubeActivity youtubeActivity = new YoutubeActivity();
+//        youtubeActivity.displayMathsQuestion();
     }
 
     private void initializeVideos() {
@@ -62,7 +63,7 @@ public class MathsActivity extends AppCompatActivity {
 
     }
     private void initializeAdapter() {
-        myadapter = new VideoAdapter(listOfVideos);
+        myadapter = new MathsVideoAdapter(listOfVideos);
 
         myrecyclerView = findViewById(R.id.maths_recycler);
 

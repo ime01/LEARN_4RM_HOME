@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import com.flowz.learn4rmhome.R;
 import com.flowz.learn4rmhome.model.video;
+import com.flowz.learn4rmhome.youtubeSetUp.EnglishYoutubeActivity;
+import com.flowz.learn4rmhome.youtubeSetUp.MathsYoutubeActivity;
 import com.flowz.learn4rmhome.youtubeSetUp.YoutubeActivity;
 
 import java.util.List;
@@ -24,6 +26,7 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
     public VideoAdapter(List<video> videoList) {
         this.videoList = videoList;
     }
+
 
     @NonNull
     @Override
@@ -61,17 +64,28 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
                 @Override
                 public void onClick(View view) {
 
+//                    loadQuest();
+
                     int position = getAdapterPosition();
 
                    video videoModel =  videoList.get(position);
 
-                       String videoUrl = videoModel.videoLink;
+                    String videoUrl = videoModel.videoLink;
 
-                    Intent intent = new Intent(view.getContext(), YoutubeActivity.class);
+                    Intent intent = new Intent(view.getContext(), EnglishYoutubeActivity.class);
                     intent.putExtra("videourl",  videoUrl);
                     view.getContext().startActivity(intent);
 
                 }
+
+//                public void loadQuest() {
+//                    int position = getAdapterPosition();
+//
+//                    video videoModel =  videoList.get(position);
+//
+//                    String videoUrl = videoModel.videoLink;
+//                }
+
             });
         }
     }

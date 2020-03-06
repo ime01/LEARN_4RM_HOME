@@ -1,4 +1,72 @@
 <resources>
     <string name="app_name">LEARN 4RM HOME</string>
     <string name="learn_4rm_home">LEARN 4RM HOME</string>
+
+    <string name="quest1"> What comes after  F, G, H, _, ? </string>
+    <string name="quest2"> Select small letter "H"</string>
+    <string name="quest3"> Fill the missing U, V, _,  X ?</string>
+    <string name="quest4">What comes after  P, Q, R, _ ? </string>
+
+    <string name="quest5"> Select small letter "B"</string>
+    <string name="quest6">Fill the missing M, N, _,  P?</string>
+    <string name="quest7"> What comes after  D, E, F, _  ?</string>
+    <string name="quest8">What comes after  I, J, K, _ ? </string>
+
+    <string name="quest9"> Select small letter "D"</string>
+    <string name="quest10">Fill the missing A,  _,  C, D?</string>
+    <string name="quest11"> What comes after  R, S, T, _  ?</string>
+    <string name="quest12">What comes after  E, _, G, H ? </string>
+
+    <string name="quest13"> Select small letter "N"</string>
+    <string name="quest14">Select small letter "G" </string>
+    <string name="quest15"> Select small letter "E" </string>
+    <string name="quest16">Select small letter "J" </string>
+
+
+    <string name="mquest1"> Fill in the next number  6, 7, 8, _  </string>
+    <string name="mquest2"> Fill in the next number  1, 2, 3, _ </string>
+    <string name="mquest3"> Fill in the missing number 1, _, 3, 4 </string>
+    <string name="mquest4">Fill in the next number   7, 8, 9, _  </string>
+
+    <string name="mquest5"> Fill in the next number   10, 11, 12, _ </string>
+    <string name="mquest6">Fill in the missing number 15, _, 16, 17</string>
+    <string name="mquest7"> Fill in the next number  17, 18, 19, _?</string>
+    <string name="mquest8">Fill in the missing number 4, _ , 5, 6</string>
+
+    <string name="mquest9"> Fill in the next number   35, 36, 37, _ </string>
+    <string name="mquest10">Fill in the missing number 40, _ , 42, 43 </string>
+    <string name="mquest11">  9 +8 = _ ? </string>
+    <string name="mquest12">Fill in the missing number  28, 29,  _, 31 </string>
+
+    <string name="mquest13"> Fill in the missing number  31, 32, _, 34</string>
+    <string name="mquest14"> 2 + 7  = _ ? </string>
+    <string name="mquest15"> 9 +5 = _ ? </string>
+    <string name="mquest16"> 6+ 12 =  _ ?</string>
+
+    <string name="option1a"> I </string>
+    <string name="option1b"> U </string>
+    <string name="option1c"> P </string>
+    <string name="option1d"> A </string>
+
+    <string name="option2a"> t </string>
+    <string name="option2b"> l </string>
+    <string name="option2c"> h </string>
+    <string name="option2d"> p </string>
+
+    <string name="option3a"> A </string>
+    <string name="option3b"> T </string>
+    <string name="option3c"> W </string>
+    <string name="option3d"> P </string>
+
+    <string name="option4a"> H </string>
+    <string name="option4b"> B </string>
+    <string name="option4c"> D </string>
+    <string name="option4d"> S </string>
+
+    <string name="option5a"> a </string>
+    <string name="option5b"> b </string>
+    <string name="option5c"> h </string>
+    <string name="option5d"> l </string>
+    <string name="you_scored">You scored</string>
+
 </resources>
